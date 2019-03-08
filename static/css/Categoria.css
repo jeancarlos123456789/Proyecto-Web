@@ -1,0 +1,287 @@
+body {
+   margin: 0;
+    padding: 0;
+   background: #fff;
+}
+header {
+    height: 180px;
+    background: black;
+}
+
+.Titulo{
+	padding-top: 5px;
+}
+.Titulo p{
+	font-family:Cursive;
+	text-align: center;
+	font-size: 60px;
+}
+.cristal{
+	background: #FF6600;
+}
+.cristal1 {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	background: #FF6600
+}
+.cristal1 img{
+	width: 200px;
+	height: 200px;
+	display:block;
+	margin:auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.cristalfrase {
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+	background: #FF6600
+}
+.cristalfrase p{
+	padding-top: 60px;
+	font-family: Comic Sans MS,Arial;
+	text-align: justify;
+}
+.logocristal{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	background: #FF6600;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.logocristal img{
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+/*===========================*/
+
+.RonCartavioBlanco{
+	background: #ac9597;
+}
+.RonCartavioBlanco1 {
+    display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	background:#ac9597;
+}
+.RonCartavioBlanco1 img{
+	width: 200px;
+	height: 200px;
+	display:block;
+	margin:auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.RonCartavioBlanco-Frase{
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+	background: #ac9597;
+}
+.RonCartavioBlanco-Frase p{
+	padding-top: 60px;
+	font-family: Comic Sans MS,Arial;
+	text-align: justify;
+}
+.logoRonCartavioBlanco{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	background: #ac9597;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.logoRonCartavioBlanco img{
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+/*=============================*/
+.RonCartavioBlack{
+	background: #f3f3e3;
+}
+.RonCartavioBlack1{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	background:#f3f3e3;
+}
+.RonCartavioBlack1 img{
+	width: 200px;
+	height: 200px;
+	display:block;
+	margin:auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.RonCartavioBlack-Frase{
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+	background: #f3f3e3;
+}
+.RonCartavioBlack-Frase p{
+	padding-top: 60px;
+	font-family: Comic Sans MS,Arial;
+	text-align: justify;
+}
+.logoRonCartavioBlack{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	background: #f3f3e3;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.logoRonCartavioBlack img{
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+/*=============================*/
+.cusquena{
+	background: #f3a1a0;
+}
+.cusquena1{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	background:#f3a1a0;
+}
+.cusquena1 img{
+	width: 200px;
+	height: 200px;
+	display:block;
+	margin:auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.cusquena-Frase{
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+	background: #f3a1a0;
+}
+.cusquena-Frase p{
+	padding-top: 60px;
+	font-family: Comic Sans MS,Arial;
+	text-align: justify;
+}
+.logocusquena{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	background: #f3a1a0;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.logocusquena img{
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+/*====================================*/
+.cremacacao{
+	background: #f2c1ac;
+}
+.cremacacao1{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	background:#f2c1ac;
+}
+.cremacacao1 img{
+	width: 200px;
+	height: 200px;
+	display:block;
+	margin:auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.cremacacao-Frase{
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+	background: #f2c1ac;
+}
+.cremacacao-Frase p{
+	padding-top: 60px;
+	font-family: Comic Sans MS,Arial;
+	text-align: justify;
+}
+.logocacao{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	background: #f2c1ac;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.logocacao img{
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+
+/*=================================*/
+
+footer section{
+    background: #010101;
+
+}
+footer p{
+    color: #fff;
+    font-size: 20px;
+}
+.fin{
+    background: #010101;
+}
+ .fin .link1  {
+    display: inline-block;
+    vertical-align: top;
+    width: 10%;
+    
+
+    
+}
+.fin .link2{
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    
+}
+ .link2 img {
+float: right;
+padding-bottom:20px;
+} 
+/*para que sea responsi*/
+@media only screen and (max-width: 600px){
+	body{
+		background:blue;
+		}
+}
+@media only screen and (min-width: 600px){
+	body{
+	background:purple;
+		}
+} 
+@media only screen and (min-width: 768px){
+	body{
+	background:green;
+		}
+}
+@media only screen and (min-width: 992px){
+	body{
+	background:orange;
+		}
+}
+@media only screen and (min-width: 1200px){
+	body{
+	background:#7cb490;
+		}
+}

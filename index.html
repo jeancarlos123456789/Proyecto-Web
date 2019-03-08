@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="utf-8">
+    <title>ERIEL Licoreria</title>
+    <link rel="stylesheet" 
+          href="./static/css/styles.css">
+     <meta name="viewport" content="width=device-width,
+     user-scalable=yes, initial-scale=1.0, maximun-scale=1.0,
+      minimum-scale=1.0">		
+          
+</head>
+
+<body>
+    <header>
+        <div class="area-logo">
+        	<a href="./index.html">
+        	<img width="200" height="150" src="./static/images/logo.jpg">
+        	</a>
+        </div>
+        <div class="Buscar">
+            <input type="text" placeholder="Buscar aqui" class="Buscador1">
+            <button type="button" class="Buscador2">Buscar</button>
+        </div>
+        <nav class="area-menu">
+            <ul>
+				<li><a href="./index.html">Inicio</a></li>
+
+                <li class="area-menu-categoria"><a href="">Categoria</a> 
+                	<ul class="submenu">
+	                		<li><a href="./Categoria.html">Bebidas Alcoholicas</a> </li>
+	                		<li><a href="./BebidasNoAlcoholica.html">Bebidas No Alcoholicas</a> </li>
+                	</ul>
+                </li>
+
+				<li><a href="./Contacto.html">Contacto</a></li>
+			</ul>	
+        </nav>
+	</div>
+	</header>
+	<!-- ========================================== -->
+<div class="container">
+	
+	<input type="radio" id="i1" name="images" checked />
+	<input type="radio" id="i2" name="images" />
+	<input type="radio" id="i3" name="images" />
+	<input type="radio" id="i4" name="images" />
+	<input type="radio" id="i5" name="images" />	
+	
+	<div class="slide_img" id="one">			
+			
+			<img src="./static/images/cristal1.jpg">
+			
+				<label class="prev" for="i5"><span>&#x2039;</span></label>
+				<label class="next" for="i2"><span>&#x203a;</span></label>	
+		
+	</div>
+	
+	<div class="slide_img" id="two">
+		
+			<img src="./static/images/cusquena.jpg" >
+			
+				<label class="prev" for="i1"><span>&#x2039;</span></label>
+				<label class="next" for="i3"><span>&#x203a;</span></label>
+		
+	</div>
+			
+	<div class="slide_img" id="three">
+			<img src="./static/images/RonCartavioBlack.jpg">	
+			
+				<label class="prev" for="i2"><span>&#x2039;</span></label>
+				<label class="next" for="i4"><span>&#x203a;</span></label>
+	</div>
+
+	<div class="slide_img" id="four">
+			<img src="./static/images/RonCartavioBlanco.jpg">	
+			
+				<label class="prev" for="i3"><span>&#x2039;</span></label>
+				<label class="next" for="i5"><span>&#x203a;</span></label>
+	</div>
+
+	<div class="slide_img" id="five">
+			<img src="./static/images/lc.jpg">	
+			
+				<label class="prev" for="i4"><span>&#x2039;</span></label>
+				<label class="next" for="i1"><span>&#x203a;</span></label>
+
+	</div>
+
+	<div id="nav_slide">
+		<label for="i1" class="botton" id="botton1"></label>
+		<label for="i2" class="botton" id="botton2"></label>
+		<label for="i3" class="botton" id="botton3"></label>
+		<label for="i4" class="botton" id="botton4"></label>
+		<label for="i5" class="botton" id="botton5"></label>
+	</div>
+		
+</div>
+<!-- ============================================== -->
+	
+		<section class="area-items">
+			<section class="item1">
+				<h2>LICORES</h2>
+				<img src="./static/images/licores.jpg">
+				<p>
+					<strong>
+					Ofrecemos gran variedad de licores:<BR></strong>
+					-(Ron,Lc,Corona,Cusqueña,Russ Kaya<br>
+					Red Label,Flor de Caña,Vinos)
+				</p>
+			</section>
+
+			<section class="item2">
+				<h2>BEBIDAS</h2>
+				<img src="./static/images/bebidas.jpg">
+				<p>
+					<strong>
+					Ofrecemos diferentes variedades de Bebidas:<br></strong>
+					-(Guarana,Power Ade,Pepsi,Coca Cola,Volt,Red Bull<br>
+					Sporade,Inca kola,Crush)
+				</p>
+			</section>
+		</section>
+
+		
+		<center>
+			<div class="col-multimedia">
+				<video  loop="loop"  poster="./static/images/copasvideo.jpg" muted controls>
+					<source src="./static/media/corona.mp4" type="video/mp4">
+					<source src="./static/media/corona.webm" type="video/webm">
+				</video>
+			</div>
+		</center>	
+	
+</body>
+<footer class="fin">
+		<section class="link1">
+		<p><strong>Mas de nosotros:</p>
+			</strong>
+		<a href="https://en-gb.facebook.com/pages/category/Music-Production-Studio/ERIEL-studios-1706397752777084/" target="_blank">
+			<img width="50" height="50" src="./static/images/facebook.png">
+		</a>
+
+		<a href="https://www.youtube.com/channel/UCgZxuePF8Vx2JQW3ADjmeKw" target="_blank">
+			<img width="50" height="50" src="./static/images/youtube.png">
+		</a>
+	</section>
+		<section class="link2">
+				<p><strong>Se acepta:</p>
+				</strong>
+				<img width="100" src="./static/images/visa.png">
+		</section>
+		
+</footer>
+
+
+</html>
